@@ -1,0 +1,45 @@
+# Ignore target directory
+/target/
+
+# Ignore Maven wrapper files
+.mvn/
+mvnw
+mvnw.cmd
+
+# Ignore Eclipse project files
+.classpath
+.project
+.settings/
+
+# Ignore log files
+*.log
+
+# Ignore IntelliJ IDEA files
+.idea/
+*.iml
+
+# Ignore OS generated files
+.DS_Store
+Thumbs.db
+
+# Ignore Spring Boot specific files
+spring-aot/
+
+# Ignore queue.db database file
+queue.db
+
+# Ignore compiled class files
+*.class
+
+# Ignore generated sources
+/generated-sources/
+/generated-test-sources/
+
+# Ignore temporary files
+*.tmp
+*.temp
+
+# Ignore picocli generated files
+*.picocli
+
+# Ignore any other files that should not be committed
