@@ -1,6 +1,13 @@
 # Ignore target directory
 /target/
 
+#
+bin/
+
+#
+.factorypath
+
+
 # Ignore Maven wrapper files
 .mvn/
 mvnw
