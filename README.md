@@ -229,6 +229,8 @@ queuectl/
 ---
 # CLI Commands
 
+Each subCommand will be automatically prefixed by 'queuectl' as defined in QueuectlCommand.java file.    
+
 <p align="left">
   <img src="images/cli_subcommands_table.png" width="60%">
 </p>
@@ -243,6 +245,8 @@ queuectl/
 git clone https://github.com/Muskan-Seth03/Background-Job-Queue-System.git
 ```
 
+Install the dependencies and generate the JAR file of the application.
+
 ## Build
 
 ```bash
@@ -250,6 +254,8 @@ mvn clean package
 ```
 
 ## Run
+
+Run the JAR file along with the subCommand you want to use.
 
 ### Usage Examples
 
@@ -287,13 +293,6 @@ java --% -jar target\queuectl-0.0.1-SNAPSHOT.jar dlq list
 
 QueueCTL supports runtime configuration through the CLI.
 
-Available settings:
-
-<p align="left">
-  <img src="images/configuration_table.png" width="50%">
-</p>
-
-Example
 
 ```bash
 java --% -jar target\queuectl-0.0.1-SNAPSHOT.jar config set max-retries 5
@@ -303,7 +302,7 @@ java --% -jar target\queuectl-0.0.1-SNAPSHOT.jar config set max-retries 5
 
 # Testing
 
-Run unit tests
+Write and Run unit tests
 
 ```bash
 mvn clean test
